@@ -4,19 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Home</title>
+
+    <meta name="description"
+        content="WDD 131 Dynamic Web Fundamentals. Learn about Gabriel Junior Saidi Kalokola, web development, and the Democratic Republic of the Congo.">
+    <meta name="author" content="Gabriel Junior Saidi Kalokola">
+
+    <title>WDD 131 – Dynamic Web Fundamentals – Gabriel Junior</title>
+
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <h1>Welcome to my WDD 131 website</h1>
-    <p>My name is Gabriel Junior.</p>
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
 
-    <h2>Week 01</h2>
-    <p>
-        <a href="week01/basic-layout.html">
-            View the Basic Layout activity
-        </a>
-    </p>
+        <nav>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scriptures</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Gabriel Junior Saidi Kalokola</h1>
+
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="images/gabriel.jpg" alt="Photo of Gabriel">
+            <p>Hello! My name is Gabriel Junior Saidi Kalokola. I am a software development student learning HTML, CSS,
+                and programming.</p>
+        </section>
+
+        <section class="card">
+            <h2>Democratic Republic of the Congo</h2>
+            <img src="images/congo.jpg" alt="Landscape of the Democratic Republic of the Congo">
+            <p>The Democratic Republic of the Congo is a country in Central Africa. Its capital city is Kinshasa.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> Gabriel Junior Saidi Kalokola | Democratic Republic of the Congo</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 
 </html>
