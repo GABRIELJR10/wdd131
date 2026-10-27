@@ -66,10 +66,37 @@ h1 {
 }
 
 .card h2 {
-    margin-top: 0;
+    margin-top: 1;
     padding: 0.5rem;
     background-color: #1b4965;
     color: white;
+
+}
+
+.profile-img {
+    float: right;
+    width: 120px;
+    height: auto;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.flag-img {
+    float: left;
+    width: 130px;
+    height: auto;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.location-heading {
+    margin-top: 2rem;
 }
 
 /* Footer */
@@ -123,4 +150,62 @@ main h1 {
 h1,
 h2 {
     font-family: "Roboto Slab", serif;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.location-heading {
+    text-align: center;
+    text-decoration: underline;
+    background: none;
+}
+
+.congo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.congo-content p {
+    flex: 1;
+}
+
+.congo-img {
+    width: 200px;
+    max-width: 40%;
+    height: auto;
+    margin: 0;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 600px) {
+    .congo-content {
+        flex-direction: column;
+    }
+
+    .congo-img {
+        max-width: 100%;
+        width: 180px;
+    }
+}
+
+.congo-image {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.congo-image .congo-img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.image-caption {
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 8px 0 0;
+    font-style: italic;
 }
