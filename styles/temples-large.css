@@ -1,18 +1,31 @@
 @media only screen and (min-width: 32rem) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .header-content {
-        justify-content: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
     }
 
     #menu-button {
         display: none;
     }
 
+    nav {
+        flex-direction: row;
+        align-items: center;
+    }
+
     .navigation {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         gap: 1rem;
-        margin-top: 1rem;
+        margin-top: 0;
     }
 
     .navigation a {

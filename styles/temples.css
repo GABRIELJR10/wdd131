@@ -27,6 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .site-title {
@@ -42,6 +43,11 @@ header {
     background: transparent;
     border: none;
     cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
 }
 
 .navigation {
@@ -119,52 +125,4 @@ footer {
 
 footer p {
     margin: 0.5rem;
-}
-
-header {
-    background-color: #1b4965;
-    color: white;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-content {
-    display: flex;
-    align-items: center;
-}
-
-.site-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0;
-}
-
-.navigation {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-    margin: 0;
-}
-
-.navigation a {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem;
-}
-
-.navigation a:hover {
-    background-color: #62b6cb;
-    color: #102a36;
-}
-
-#menu-button {
-    display: none;
-}
-
-nav {
-    display: flex;
-    flex-direction: column;
 }
