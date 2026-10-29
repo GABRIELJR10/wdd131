@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive album of beautiful temples around the world.">
+    <meta name="author" content="Gabriel Junior Saidi Kalokola">
+    <title>Temple Album | Gabriel Junior</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/temples.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <p class="site-title">Temple Album</p>
+            <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navigation">
+                ☰
+            </button>
+        </div>
+
+        <nav id="navigation" class="navigation">
+            <a href="temples.html">Home</a>
+            <a href="#old">Old</a>
+            <a href="#new">New</a>
+            <a href="#large">Large</a>
+            <a href="#small">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <div class="temple-grid">
+            <figure id="old">
+                <img src="images/temple-1.webp" alt="Temple surrounded by a landscaped garden" loading="lazy">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+
+            <figure id="new">
+                <img src="images/temple-2.webp" alt="Temple with beautiful architectural details" loading="lazy">
+                <figcaption>Rome Italy Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/temple-3.webp" alt="Temple building viewed from outside" loading="lazy">
+                <figcaption>Paris France Temple</figcaption>
+            </figure>
+
+            <figure id="large">
+                <img src="images/temple-4.webp" alt="Large temple with landscaped grounds" loading="lazy">
+                <figcaption>Washington D.C. Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/temple-5.webp" alt="Temple with tall architectural towers" loading="lazy">
+                <figcaption>Provo Utah Temple</figcaption>
+            </figure>
+
+            <figure id="small">
+                <img src="images/temple-6.webp" alt="Temple surrounded by green trees" loading="lazy">
+                <figcaption>Accra Ghana Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/temple-7.webp" alt="Temple with a landscaped entrance" loading="lazy">
+                <figcaption>Johannesburg South Africa Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/temple-8.webp" alt="Temple with elegant stone architecture" loading="lazy">
+                <figcaption>Manila Philippines Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/temple-9.webp" alt="Temple building with decorative exterior" loading="lazy">
+                <figcaption>Freiberg Germany Temple</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> ❤️ Gabriel Junior Saidi Kalokola ❤️ | Democratic Republic of the Congo</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
