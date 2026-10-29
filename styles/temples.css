@@ -163,3 +163,8 @@ header {
 #menu-button {
     display: none;
 }
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
