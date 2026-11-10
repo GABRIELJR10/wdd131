@@ -1,4 +1,4 @@
-
+﻿
 // Static weather data
 const temperature = 25;
 const windSpeed = 10;
