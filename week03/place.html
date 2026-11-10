@@ -1,0 +1,60 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover the Democratic Republic of the Congo, its geography, culture, and weather.">
+    <meta name="author" content="Gabriel Junior Saidi Kalokola">
+    <title>Democratic Republic of the Congo | Country Page</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Democratic Republic of the Congo</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="../images/congo-large.webp" media="(min-width: 768px)">
+                <img src="../images/congo-small.webp" alt="Landscape of the Democratic Republic of the Congo">
+            </picture>
+        </div>
+
+        <section class="data">
+            <h2>Data</h2>
+            <div class="data-content">
+                <p><strong>Area:</strong> 2,344,858 km²</p>
+                <p><strong>Population:</strong> Approximately 112 million</p>
+                <p><strong>Capital:</strong> Kinshasa</p>
+                <p><strong>Language:</strong> French</p>
+                <p><strong>Currency:</strong> Congolese Franc (CDF)</p>
+                <p><strong>Time Zone:</strong> UTC+1 and UTC+2</p>
+                <p><strong>Calling Code:</strong> +243</p>
+            </div>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <div class="weather-content">
+                <img src="../images/weather.svg" alt="" class="weather-icon">
+                <p><strong>Condition:</strong> Partly Cloudy</p>
+                <p><strong>Temperature:</strong> 25 °C</p>
+                <p><strong>Wind Speed:</strong> 10 km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windchill">N/A</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> ❤️ Gabriel Junior Saidi Kalokola ❤️ | DR Congo</p>
+        <p>Last modified: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+
+</html>

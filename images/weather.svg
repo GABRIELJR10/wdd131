@@ -1,0 +1,19 @@
+svg
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 100 100"
+     role="img"
+     aria-label="Partly cloudy weather">
+
+    <circle cx="65" cy="32" r="19" fill="#f7d618"/>
+
+    <path d="M25 72
+             C12 72 10 54 24 49
+             C26 32 49 28 58 43
+             C73 38 88 51 85 65
+             C84 73 77 77 68 77
+             H25Z"
+          fill="#d9eaf7"
+          stroke="#2875a5"
+          stroke-width="3"
+          stroke-linejoin="round"/>
+</svg>
